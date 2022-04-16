@@ -119,7 +119,7 @@ namespace PLx
 
             Console.WriteLine("Example 1");
             Console.WriteLine();
-
+            
             SolutionSet ss = e.GetAllSolutions(null, "age(P,N)");
 
             if (ss.Success)
